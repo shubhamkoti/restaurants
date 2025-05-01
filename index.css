@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff9f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+  height:3.8rem;
+  background: #dd7230;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover no-repeat;
+  color: white;
+  font-size: 1.3rem;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.menu-items {
+  color:white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.item {
+  /* color:white; */
+  background: #f8f1f1;
+  padding: 1rem;
+  margin: 2.4rem;
+  border-radius: 8px;
+  width: 20rem;
+  height:20rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background:  #4b3f38;
+  color: white;
+  text-align: center;
+ 
+  margin-top: 2rem;
+  height:2rem;
+}
+
+.button{
+  text-align: center;
+  margin-top: 240px;
+ height: 2rem;
+  width:7rem;
+  color:rgb(253, 252, 252);
+  font-size: 1rem;
+  font-weight:bold ;
+  background-color: #dd7230;     
+  border-radius: 20px;
+  border:0px solid black ;
+}
+/* set backgound for each */
+.paneer{ 
+background:url('https://www.sanjanafeasts.co.uk/wp-content/uploads/2018/05/Creamy-Restaurant-Style-Matar-Paneer-2.jpg')center/cover no-repeat;
+ }
+.cake{
+  background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZDaYVSHu7dOHqUSyXngtCv08XXiO-4ZOVElUngv0VkmzHGvQLxbgPHmKQzrnP2u2oMcw&usqp=CAU')center/cover no-repeat;
+}
+.pizza{
+  background: url('https://images.unsplash.com/photo-1613564834361-9436948817d1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBpenphfGVufDB8fDB8fHww')center/cover no-repeat;
+}
+.tikka{
+  background: url('https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2021/08/paneer-tikka.jpg')center/cover no-repeat;
+}
+
+.roll{
+  background: url('https://media.istockphoto.com/id/1400110943/photo/mix-vegetable-kathi-roll.jpg?s=612x612&w=0&k=20&c=Eu4CTntaqisOiLRN1bW1CihDW6SsVFeqZUryF7wVGn4=')center/cover no-repeat;
+}
+.sandwich{
+  background:url('https://recipesblob.oetker.in/assets/6e9fb84be553424a9bb7368bbad24a77/1272x764/multigrain-sandwich-with-beetroot-avocado-and-greens.webp')center/cover no-repeat;
+}
+.samosa{
+  background: url("https://onestophalal.com/cdn/shop/articles/vegetable_samosa-1697399047300_1200x.jpg?v=1697399081")center/cover no-repeat;
+}
+.pakoras{
+  background: url("https://t3.ftcdn.net/jpg/06/31/56/74/360_F_631567498_cVBcTpyJALAGvOXv3BhJnDFhX0xjPKcw.jpg")center/cover no-repeat;
+}
+.mushroom{
+  background: url("https://www.garnishwithlemon.com/wp-content/uploads/2022/11/Mushroom-Bruschetta-featured-image.jpg")center/cover no-repeat;
+}
+.kofta{
+  background: url("https://img.freepik.com/premium-photo/malai-kofta-curry-black-background-indian-cuisine-view-from_233226-704.jpg")center/cover no-repeat;
+}
+.rasgulla{
+  background: url("https://www.shutterstock.com/image-photo/sponge-rasgulla-sweets-famous-bangladesh-600nw-2368430053.jpg")center/cover no-repeat;
+}
+.khir{
+  background:url("https://thumbs.dreamstime.com/b/creamy-rice-kheer-bowl-candles-flower-petals-background-close-up-creamy-rice-kheer-bowl-candles-343914532.jpg")center/cover no-repeat;
+}
+.malpua{
+  background:url("https://www.easyfoodsmith.com/wp-content/uploads/2019/10/MPR-2.jpg")center/cover no-repeat;
+}
+.jalebi{
+  background:url("https://images.pexels.com/photos/7566499/pexels-photo-7566499.jpeg?cs=srgb&dl=pexels-mumtahina-tanni-1080117-7566499.jpg&fm=jpg")center/cover no-repeat;
+}
+.ice-cream{
+  background:url("https://s1.1zoom.me/b4645/358/Sweets_Ice_cream_Powidl_Black_background_Balls_527369_2560x1440.jpg")center/cover no-repeat;
+}
+.aloo{
+background:url("https://img.freepik.com/premium-photo/solo-aloo-paratha-black-background_636537-377145.jpg")center/cover no-repeat;
+
+}
+.rice{
+background:url("https://static.vecteezy.com/system/resources/previews/028/823/428/non_2x/fried-rice-in-bowl-at-dark-background-photo.jpeg")center/cover no-repeat;
+}
+.bharta{
+background:url("https://t4.ftcdn.net/jpg/11/28/16/39/360_F_1128163953_MA8tLmGla8CwDnZfoE31MJO7YQBgtASb.jpg")center/cover no-repeat;
+}
+
+/* about us  */
+#about{
+font-size: .7rem;
+  background-color:  #ffc289;
+  color: #333;
+  height:5rem;
+}
+#contact{
+font-size: .6rem;
+  background-color: #f69a43; 
+  height:6.5rem;
+}
+.branch{
+height:.5rem;
+font-size: .8rem;
+color: #333;
+padding-bottom: 10px;
+}
+
+#branches{
+  padding-top: 1rem;
+ 
+  height:3rem;
+}
